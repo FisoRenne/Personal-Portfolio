@@ -1,0 +1,133 @@
+header {
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 50px;
+ color:black;
+ background-color: lightcyan;
+}
+
+
+
+.nav__ul {
+    display: flex;
+    border: 5px black;
+    padding: 1rem;
+    background-color: goldenrod;
+    align-content: flex-end;
+    justify-content: right;
+}
+
+.nav__ul li {
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    padding: 0.5rem;
+    list-style-type: none;
+}
+
+
+.title {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+    font-size: 50px;
+    height: 50px;
+    width: fit-content;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-decoration: underline darkblue 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ .info {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: left;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexboxes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content:space-between, flex-start;
+    align-items: center;
+    margin: 30px;
+}
+
+.img1 {
+    width: 500px;
+    height: 300px;
+}
+
+.img {
+    width: 400px;
+    height: 150px;
+    margin-right: 5px;
+}
+.container:hover {
+    color: white;
+}
+ .container div { 
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex-start;
+} 
+
+.div1 {
+    background-color:goldenrod;
+    margin-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div2 {
+    background-color:goldenrod;
+    flex-wrap: wrap;
+    display: flex;
+    margin-right: 5px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.footer {
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    }
+
+.button {
+    cursor: pointer;
+    border: none;
+    background-color: none;
+    outline: none;
+    border-style: none;
+    max-width: fit-content;
+    justify-content: space-around;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    * {
+       width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    * { 
+        width: 100%;
+    }
+}
