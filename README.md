@@ -1,2 +1,2 @@
 Module 2 Challenge
-Created a person portfolio; still need to add work and make clickable features link to projects. 
+Created a person portfolio using CSS, HTML, and flexboxes. Have added links to Projects 1 and 2. 
